@@ -1,0 +1,32 @@
+﻿body {
+    /*    background-color: #4cff00;*/
+    background-image: url('../../images/homebg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+    #login {
+        background-color: pink;
+        width: 59%;
+        max-width: 451px;
+        height: 294px;
+        position: absolute;
+        left: 11%;
+        top: 118px;
+        transform: translateX(-50%);
+        border: 2px solid black;
+        padding: 20px;
+        overflow:hidden;
+        box-sizing: border-box;
+        border-radius: 100px; /* ✅ yahan add karo */
+    }
+
+#Label2{
+    color:black;
+    font-size:100px;
+
+    text-transform:capitalize;
+}
